@@ -50,6 +50,10 @@ lefthook install
 ```
 Also see `lefthook.yml.sample` for a template of git hooks.
 
-## 5) Keep configuring, or start developing!
+## 5) Add License
+Dont' forget to add a license to your project.  By default, an MIT license is provided; add your name to it.
+
+
+## 6) Keep configuring, or start developing!
 
 
