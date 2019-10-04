@@ -1,19 +1,19 @@
-# Typescript Starter w/ Nix
+# Base Starter w/ Nix
 
 # Setup
 ## 0) Prerequisites
 
 - [Nix](https://nixos.org/nix/)
 - [Niv](https://github.com/nmattia/niv)
-- direnv (optional) 
-    - can install via nix: `nix-env -i direnv`
+- [direnv](https://github.com/direnv/direnv) (optional) 
+  - allows auto loading packages when navigating to this directory
+  - can install via nix: `nix-env -i direnv`
 
 
 ## 1) Update nixpkgs version to latest branch.
 linux:
 ```
 niv update nixpkgs -b nixpkgs-19.09
-
 ```
 
 macos:
