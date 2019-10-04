@@ -1,0 +1,10 @@
+pre-commit:
+  commands:
+    lint:
+      glob: "*.{<ext1>, <ext2>,...}"
+      run: <insert_command> {staged_files} && git add {staged_files}
+pre-push:
+  commands:
+    test: 
+
+
