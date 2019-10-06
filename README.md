@@ -50,3 +50,7 @@ Currently, its mainly used to track versions for tooling.
 
 # TODO
 - [] add a `default.nix` for packaging.
+
+# Notes
+For git hooks, currently experimenting with `lefthook` tool. 
+Alternative would be to simply write some shell scripts, and symlink them to each `.git/hooks`.
