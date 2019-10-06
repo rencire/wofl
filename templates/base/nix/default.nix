@@ -1,5 +1,5 @@
+{ sources ? import ./sources.nix }:
 let
-  sources = import ./sources.nix;
   overlay = selfpkgs: superpkgs:
       { sources = sources;
         lefthook = superpkgs.callPackage ./lefthook.nix {}; 
