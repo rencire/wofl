@@ -1,4 +1,4 @@
-{ sources ? import ./sources.nix };
+{ sources ? import ./sources.nix }:
 let
   overlay = selfpkgs: superpkgs:
       { sources = sources;
