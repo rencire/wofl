@@ -50,9 +50,14 @@ with import ./nix;
 
 
 ## 3) Install packages 
-With `direnv` installed, just `cd` into this directory.
+With `direnv` installed:
+1. Uncomment `use_nix` line in `.envrc`.
+2. Enable direnv:
+```
+direnv allow
+```
 
-Without `direnv`,  use `nix-shell`:
+Alternatively, without using `direnv`,  just use `nix-shell`:
 ```
 nix-shell
 ```
