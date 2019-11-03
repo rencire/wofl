@@ -1,4 +1,4 @@
-import main { someFunc } from "./main";
+import main, { someFunc } from "./main";
 
 describe("Test", () => {
   it("should ...", () => {
