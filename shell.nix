@@ -3,5 +3,6 @@ with import ./nix {};
     buildInputs = [ 
       lefthook
       argbash
+      nodePackages.node2nix
     ];
   }
