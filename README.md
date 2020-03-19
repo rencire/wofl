@@ -1,5 +1,10 @@
 # WOFL (WOrkFLow)
-A template generator for "nix and git" based workflows.
+A project template generator for an opinionated workflow.  Depends on:
+
+- git
+- lefthook
+- nix
+- niv
 
 See `templates` folder for some opinionated starter templates.
 
@@ -21,7 +26,11 @@ templates:
 - base
 - typescript
 
+
+Now start working on your project!
+
 # Development
+See this section if you want to hack on `wofl` code.
 
 ## Prerequisites:
 - git
@@ -61,4 +70,5 @@ Alternative would be to simply write some shell scripts, and symlink them to eac
 # TODO
 - [] add a `default.nix` for packaging.
 - [] add script to update nixpkgs versions for all templates 
-
+- [] add logic to change nixpkgs branch (nix/sources.json) depending on which os we are using
+- [] add screencast on using the tools
