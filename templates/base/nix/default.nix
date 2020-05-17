@@ -1,9 +1,8 @@
 { sources ? import ./sources.nix }:
 let
+  # Insert custom overlays here. Good place for custom packages.
   overlay = selfpkgs: superpkgs:
-      { sources = sources;
-        lefthook = superpkgs.callPackage ./lefthook.nix {}; 
-      };
+    {};
 in
   import sources.nixpkgs
     { overlays = [ overlay ] ; config = {}; }
